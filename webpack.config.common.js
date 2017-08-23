@@ -9,7 +9,7 @@ module.exports = {
     // 入口
     entry: {
         index: './src/index.js',
-        another: './src/another-module.js',
+        // another: './src/another-module.js',
     },
 
     // 输出
