@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 
@@ -54,6 +55,15 @@ module.exports = {
                 ]
             }
         ]
-    }
+    },
+
+    // 插件
+    plugins: [
+
+        // 动态生成 html
+        new HtmlWebpackPlugin({
+            title: 'Output Management'
+        })
+    ]
 
 };
