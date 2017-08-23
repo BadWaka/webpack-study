@@ -24,7 +24,14 @@ module.exports = {
             },
             // 图片
             {
-                test: /\.(png|svg|jpg|jpeg|gif)/,
+                test: /\.(png|svg|jpg|jpeg|gif)$/,
+                use: [
+                    'file-loader'
+                ]
+            },
+            // 字体
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
                 use: [
                     'file-loader'
                 ]
