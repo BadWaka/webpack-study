@@ -1,3 +1,10 @@
+webpackJsonp([0],{
+
+/***/ 4:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // export default function printMe() {
 //     // console.log('I get called from print.js!');
 //     // cosnole.log('I get called from print.js!');
@@ -6,6 +13,11 @@
 
 console.log('The print.js module has loaded! See the network tab in dev tools...');
 
-export default () => {
+/* harmony default export */ __webpack_exports__["default"] = (() => {
     console.log('Button Clicked: Here\'s "some text"!');
-}
+});
+
+/***/ })
+
+});
+//# sourceMappingURL=print.bundle.js.map
