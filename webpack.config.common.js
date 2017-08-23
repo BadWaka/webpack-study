@@ -8,8 +8,8 @@ module.exports = {
 
     // 入口
     entry: {
-        app: './src/index.js',
-        // print: './src/print.js'
+        index: './src/index.js',
+        another: './src/another-module.js',
     },
 
     // 输出
