@@ -14,8 +14,8 @@ module.exports = {
 
     // 输出
     output: {
-        filename: '[name].bundle.js',
-        chunkFilename: '[name].bundle.js',
+        filename: '[name].[chunkhash].js',
+        // chunkFilename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
 
@@ -66,7 +66,7 @@ module.exports = {
 
         // 动态生成 html
         new HtmlWebpackPlugin({
-            title: 'Output Management'
+            title: 'Caching'
         }),
 
     ]
