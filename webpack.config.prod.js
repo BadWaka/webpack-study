@@ -1,3 +1,6 @@
+/**
+ * webpack 生产环境配置文件
+ */
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');

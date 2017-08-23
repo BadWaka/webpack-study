@@ -1,3 +1,6 @@
+/**
+ * webpack 开发环境配置文件
+ */
 const webpack = require('webpack');
 const Merge = require('webpack-merge');
 const CommonConfig = require('./webpack.config.common');
