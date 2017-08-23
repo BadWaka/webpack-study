@@ -20,6 +20,11 @@ module.exports = {
     // source map
     devtool: 'inline-source-map',
 
+    // 开发服务器
+    devServer: {
+        contentBase: './dist',  // 告诉开发服务器(dev server)，在哪里查找文件
+    },
+
     // 模块 这些选项决定了如何处理项目中的不同类型的模块
     module: {
         rules: [
