@@ -17,7 +17,7 @@ function component() {
 }
 
 // document.body.appendChild(component());
-let element = component();
+var element = component();
 document.body.appendChild(element);
 
 if (module.hot) {
