@@ -86,6 +86,11 @@ module.exports = {
         // 使用 webpack 自带的模块热替换插件
         new webpack.HotModuleReplacementPlugin(),
 
+        // 设置 Node 环境变量
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify('development')
+        }),
+
     ]
 
 };

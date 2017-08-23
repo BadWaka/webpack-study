@@ -88,6 +88,11 @@ module.exports = {
 
         //  运行 UglifyJS 来压缩输出文件
         new webpack.optimize.UglifyJsPlugin({}),
+
+        // 设置 Node 环境变量
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify('production')
+        }),
     ]
 
 };
