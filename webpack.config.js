@@ -17,6 +17,9 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
 
+    // source map
+    devtool: 'inline-source-map',
+
     // 模块 这些选项决定了如何处理项目中的不同类型的模块
     module: {
         rules: [
