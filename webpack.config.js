@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const ManifestPlugin = require('webpack-manifest-plugin');
 
 module.exports = {
 
@@ -67,7 +68,10 @@ module.exports = {
         // 动态生成 html
         new HtmlWebpackPlugin({
             title: 'Output Management'
-        })
+        }),
+
+        // 生成 manifest 文件
+        new ManifestPlugin(),
     ]
 
 };
