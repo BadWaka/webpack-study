@@ -1,3 +1,6 @@
 {
-  "index.js": "index.bundle.js"
+  "index.js": "index.bundle.js",
+  "index.js.map": "index.bundle.js.map",
+  "lodash.js": "lodash.bundle.js",
+  "lodash.js.map": "lodash.bundle.js.map"
 }
