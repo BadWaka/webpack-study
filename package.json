@@ -1,27 +1,19 @@
 {
-  "name": "webpack-study",
+  "name": "user-new",
   "version": "1.0.0",
-  "description": "学习webpack",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "lodash": "^4.17.4"
-  },
-  "devDependencies": {
-    "webpack": "^2.4.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BadWaka/webpack-study.git"
+    "build": "./node_modules/.bin/webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BadWaka/webpack-study/issues"
+  "devDependencies": {
+    "webpack": "^3.5.5"
   },
-  "homepage": "https://github.com/BadWaka/webpack-study#readme"
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }

@@ -1,9 +1,25 @@
 const path = require('path');
 
 module.exports = {
-    entry: './app/index.js',
+
+    // 入口
+    entry: path.resolve(__dirname, 'src/index.js'),
+
+    // 输出
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
+    },
+
+    // 模块 这些选项决定了如何处理项目中的不同类型的模块
+    module: {
+        rules: [
+            // css
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            }
+        ]
     }
+
 };
