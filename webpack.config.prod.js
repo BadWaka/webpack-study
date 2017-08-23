@@ -29,10 +29,6 @@ module.exports = Merge(CommonConfig, {
             'process.env.NODE_ENV': JSON.stringify('production')
         }),
 
-        // // 提取公用的模块
-        // new webpack.optimize.CommonsChunkPlugin({
-        //     name: 'common', // 指定公用包的名称
-        // }),
     ]
 
 });
