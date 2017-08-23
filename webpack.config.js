@@ -3,11 +3,14 @@ const path = require('path');
 module.exports = {
 
     // 入口
-    entry: path.resolve(__dirname, 'src/index.js'),
+    entry: {
+        app: './src/index.js',
+        print: './src/print.js'
+    },
 
     // 输出
     output: {
-        filename: 'bundle.js',
+        filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
 
