@@ -17,7 +17,17 @@ module.exports = {
             // css
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            },
+            // 图片
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)/,
+                use: [
+                    'file-loader'
+                ]
             }
         ]
     }
