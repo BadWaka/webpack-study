@@ -85,6 +85,9 @@ module.exports = {
 
         // 使用 webpack 自带的模块热替换插件
         new webpack.HotModuleReplacementPlugin(),
+
+        //  运行 UglifyJS 来压缩输出文件
+        new webpack.optimize.UglifyJsPlugin({}),
     ]
 
 };
