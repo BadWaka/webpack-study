@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
 
@@ -59,6 +60,9 @@ module.exports = {
 
     // 插件
     plugins: [
+
+        // 清理 dist 目录
+        new CleanWebpackPlugin(['dist']),
 
         // 动态生成 html
         new HtmlWebpackPlugin({
