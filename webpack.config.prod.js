@@ -29,6 +29,9 @@ module.exports = Merge(CommonConfig, {
             'process.env.NODE_ENV': JSON.stringify('production')
         }),
 
+        // 修复每次生成的 vendor hash 变化的问题
+        new webpack.HashedModuleIdsPlugin(),
+
     ]
 
 });
