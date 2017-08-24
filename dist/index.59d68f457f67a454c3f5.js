@@ -1,3 +1,13 @@
+webpackJsonp([1],[
+/* 0 */,
+/* 1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__print__ = __webpack_require__(4);
 // // 静态导入
 // import _ from 'lodash';
 //
@@ -53,16 +63,44 @@
 // //     document.body.appendChild(component);
 // // });
 
-import _ from 'lodash';
-import Print from './print';
+
+
 
 function component() {
     var element = document.createElement('div');
 
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.onclick = Print.bind(null, 'Hello webpack!');
+    element.innerHTML = __WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hello', 'webpack'], ' ');
+    element.onclick = __WEBPACK_IMPORTED_MODULE_1__print__["a" /* default */].bind(null, 'Hello webpack!');
 
     return element;
 }
 
 document.body.appendChild(component());
+
+/***/ }),
+/* 2 */,
+/* 3 */,
+/* 4 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = print;
+// // export default function printMe() {
+// //     // console.log('I get called from print.js!');
+// //     // cosnole.log('I get called from print.js!');
+// //     console.log('Updating print.js...');
+// // }
+//
+// console.log('The print.js module has loaded! See the network tab in dev tools...');
+//
+// export default () => {
+//     console.log('Button Clicked: Here\'s "some text"!');
+// }
+
+function print(text) {
+    console.log(text);
+}
+
+/***/ })
+],[1]);
+//# sourceMappingURL=index.59d68f457f67a454c3f5.js.map

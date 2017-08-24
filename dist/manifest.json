@@ -1,10 +1,8 @@
 {
-  "index.js": "index.f1c988a1c296482aa02d.js",
-  "index.js.map": "index.f1c988a1c296482aa02d.js.map",
-  "print.js": "0.0bded28842e61088f0cf.js",
-  "print.js.map": "0.0bded28842e61088f0cf.js.map",
-  "runtime.js": "runtime.eccc70fb80140a840ea7.js",
-  "runtime.js.map": "runtime.eccc70fb80140a840ea7.js.map",
-  "vendor.js": "vendor.9dff39f1d2fa26c903d4.js",
-  "vendor.js.map": "vendor.9dff39f1d2fa26c903d4.js.map"
+  "index.js": "index.59d68f457f67a454c3f5.js",
+  "index.js.map": "index.59d68f457f67a454c3f5.js.map",
+  "runtime.js": "runtime.ebe007ac2ba208ef4d18.js",
+  "runtime.js.map": "runtime.ebe007ac2ba208ef4d18.js.map",
+  "vendor.js": "vendor.a7561fb0e9a071baadb9.js",
+  "vendor.js.map": "vendor.a7561fb0e9a071baadb9.js.map"
 }
